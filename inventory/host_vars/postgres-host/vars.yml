@@ -1,3 +1,3 @@
 ---
 ansible_ssh_user: "ubuntu"
-ansible_ssh_host: "{{ example_postgresql_host }}"
+ansible_ssh_host: "34.243.14.242"
