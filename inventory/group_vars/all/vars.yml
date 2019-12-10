@@ -9,4 +9,4 @@ postgresql_onadata_user: "onadata"
 postgresql_onadata_password: "somesecret"
 
 rabbitmq_admin_user: "admin"
-rabbitmq_admin_password: "somesecret"
+rabbitmq_admin_password: "supersecret"
