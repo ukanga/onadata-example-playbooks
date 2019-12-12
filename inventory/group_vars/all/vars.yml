@@ -6,7 +6,7 @@ example_api_host_1: "172.31.40.54"
 
 postgresql_onadata_db: "onadata"
 postgresql_onadata_user: "onadata"
-postgresql_onadata_password: "somesecret"
+postgresql_onadata_password: "{{ vault_postgresql_onadata_password }}"
 
 rabbitmq_admin_user: "admin"
-rabbitmq_admin_password: "supersecret"
+rabbitmq_admin_password: "{{ vault_rabbitmq_admin_password }}"
